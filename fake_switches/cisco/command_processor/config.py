@@ -23,6 +23,9 @@ class ConfigCommandProcessor(BaseCommandProcessor):
 
     def __init__(self, config_vlan, config_vrf, config_interface):
         super(ConfigCommandProcessor, self).__init__()
+        
+        # weitermachen : 20200110_130752
+        
         self.config_vlan_processor = config_vlan
         self.config_vrf_processor = config_vrf
         self.config_interface_processor = config_interface
