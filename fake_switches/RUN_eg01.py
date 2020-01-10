@@ -26,6 +26,9 @@ class MyPort(Port):
 
 
 if __name__ == '__main__':
+    
+    # weitermachen : 20200110_130752
+    
     ssh_service = SwitchSshService(ip="127.0.0.1"
                                    ,port=11001
                                    ,switch_core=CiscoSwitchCore( MySwitchConfiguration("127.0.0.1", "my_switch", ports=[MyPort("FastEthernet0/1")]) ))
