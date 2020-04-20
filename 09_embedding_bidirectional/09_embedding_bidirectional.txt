@@ -1,0 +1,5 @@
+Embedding bidirectional for us :
+
+1) Python calls to cpp
+
+2) Cpp calls to Python
