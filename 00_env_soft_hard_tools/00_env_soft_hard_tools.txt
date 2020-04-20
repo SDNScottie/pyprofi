@@ -1,0 +1,9 @@
+00_env_soft_hard_tools.txt
+
+Here we go into dept what is needed and the setup of :
+
+ 1) Environtment
+ 2) Software / Hardware needed for development.
+
+Kind Regards,
+Scottie
