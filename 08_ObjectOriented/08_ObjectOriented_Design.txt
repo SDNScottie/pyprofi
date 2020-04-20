@@ -1,6 +1,0 @@
-Object Oriented Design with Python.
-1) explained
-2) examples
-
-Kind Regards,
-Scottie
