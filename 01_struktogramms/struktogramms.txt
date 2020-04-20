@@ -1,0 +1,5 @@
+Struktogramms are a great way to beginn viewing and practicing the procedural programming aspects
+of writing your software. This leads us smoothly into the more advanced object orientated aspects.
+
+Kind Regards,
+Scottie
