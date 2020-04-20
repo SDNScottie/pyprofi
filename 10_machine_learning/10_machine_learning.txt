@@ -1,0 +1,6 @@
+Machine Learning with Python.
+
+This is a complex topic with math.
+
+Kind Regards,
+Scottie
