@@ -1,0 +1,4 @@
+Object Orientation and all the fun that we can have programming with design patterns.
+
+Kind Regards,
+Scottie
