@@ -1,0 +1,5 @@
+Here we will take about databases.
+Also about the ones we will use with python and c++.
+
+Kind Regards,
+Scottie
