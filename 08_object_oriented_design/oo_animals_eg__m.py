@@ -8,14 +8,12 @@ parent_dir = os.getcwd() # find the path to module a
 PWD = os.path.realpath(os.path.dirname(__file__))
 
 path = os.path.dirname(parent_dir)
-# Add the parent to sys.pah
+#==Add the parent to sys.pah
 sys.path.append(os.getcwd() )
 sys.path.insert(0,PWD+"//*")
 
 from animal.animal__m import cCat
 from animal.animal__m import cDog
-
-
 
 class cAnimals_eg(object):
 
@@ -28,7 +26,6 @@ class cAnimals_eg(object):
         #print("PWD = " + PWD)
 
         #print(" full python path = " + str(sys.path))
-        #a = cAnimal()
 
         c = cCat()
         print( str( c.make_a_sound() ) )
