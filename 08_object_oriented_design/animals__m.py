@@ -11,11 +11,11 @@ sys.path.append(path)
 
 #from pyometry.pyprofi.oop.animal.animals__m import *
 
-class cAnimal(object):
+class cAnimals(object):
 
     def __init__(self):
 
-        print ("\nconstructor : Animals__main")
+        print ("\nconstructor : cAnimals")
 
         d = Dog()
         d.make_a_sound()
@@ -26,7 +26,7 @@ class cAnimal(object):
         print( c.movement() )
 
 if __name__ == "__main__":
-    print("\ncAnimal is being run directly")
+    print("\ncAnimals is being run directly")
     main = cAnimal()
 else:
-    print("\ncAnimal is being imported into another module")
+    print("\ncAnimals is being imported into another module")
