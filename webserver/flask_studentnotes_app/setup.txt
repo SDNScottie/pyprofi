@@ -1,0 +1,12 @@
+
+
+
+#==Required Frameworks :
+
+ #--Installing on Windows :
+   <Python3>/Scripts/pip install flask
+   <Python3>/Scripts/pip install flask_sqlalchemy
+
+ #--Installing on Linux :
+  pip3 install flask
+  pip3 install flask_sqlalchemy
