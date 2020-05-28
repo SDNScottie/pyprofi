@@ -1,3 +1,10 @@
+#======================================
+# On our client, our project directory structure should look like :
+#
+#  ~/sdnscottie/pyprofi/webserver/flask_studentnotes_app/
+#   
+#======================================
+
 #==Required Frameworks :
 
  #--Installing on Windows :
