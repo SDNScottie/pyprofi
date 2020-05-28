@@ -7,3 +7,7 @@
  #--Installing on Linux :
   sudo pip3 install flask
   sudo pip3 install flask_sqlalchemy
+
+
+#==Run the app :
+  sudo python3 main.py
