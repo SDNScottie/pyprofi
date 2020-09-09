@@ -71,8 +71,14 @@ class cSQLite_ClientServerMgmt_App__ciud:
     #== DELETE function
     #====================================================================
     def delete_row_of_data__from__ClientServerMgmt(self, z_cs_id):
+
+        cs_id = int(z_cs_id)
+        print(" .... cs_id = " + str(cs_id))
+
         try:
-            self.sql_command = " DELETE from ClientServerMgmt where cs_id = '"+ z_cs_id +"' "
+
+            self.sql_command = " DELETE from ClientServerMgmt where cs_id = "+ str(cs_id) +" "
+            print("sql = " + self.sql_command )
             self.cursor.execute(self.sql_command)
 
             print("performed: " + self.sql_command)
@@ -81,6 +87,7 @@ class cSQLite_ClientServerMgmt_App__ciud:
             self.connection.commit()
 
         except sqlite3.Error as er:
+            #print ( 'er:' + str( er.message )  )
             print ( 'er:' + str( er )  )
             
     #====================================================================
