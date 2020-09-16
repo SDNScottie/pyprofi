@@ -4,7 +4,8 @@ import datetime
 class cTime:
 
     def __init__(self, z_msg=True):
-
+        pass
+        
     def get_TS(self):
 
         ts = strftime("%Y") + "_" + strftime("%m%d") + "_" + strftime("%H%M%S")
